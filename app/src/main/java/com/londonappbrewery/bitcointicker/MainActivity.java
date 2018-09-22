@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     String price = response.getString("last");
                     mPriceTextView.setText(price);
                 } catch (JSONException e){
-                    e.printStackTrace();;
+                    e.printStackTrace();
                 }
             }
 
